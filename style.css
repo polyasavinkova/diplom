@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+
+
+.block {
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    min-height: 90px;
+    margin-bottom: 50px;
+}
+
+.promo {
+    min-height: 554px;
+    margin-top: 30px;
+    background-image: url(img/optimize.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    text-align: center;
+    position: relative;
+}
+
+.promobutton{
+    display: flex;	
+    justify-content: center;
+    
+}
+
+#navbarSupportedContent {
+    font-weight: 700;
+}
+
+.item-img {
+    width: 40px;
+}
+
+.bullets-block {
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.sm_title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card{
+    border-radius: 16px;
+}
+
+.card-img-top {
+    border-radius: 16px;
+}
+
+.teach {
+    margin-bottom: 50px;
+}
+
+H5 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: rgba(231, 241, 255, 0);
+}
+
+.programm {
+    margin-top: 30px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+
+
+/* POPUP */
+
+
+
+
+
+
+
+

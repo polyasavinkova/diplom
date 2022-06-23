@@ -1,0 +1,10 @@
+<?php 
+session_start();
+if($_SESSION['user']){
+unset($_SESSION['user']);
+header('Location:index.php');
+}
+else{
+    header('Location:'.$_SERVER['HTTP_REFERER']);
+}
+?>
